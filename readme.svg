@@ -16,6 +16,7 @@
 			#row-1, #row-2 {
 				display: flex;
 				justify-content: space-between;
+				align-items: center;
 			}
 		  
 			h1, h2 {
@@ -24,21 +25,19 @@
 		  
 			h1 {
 				font-weight: bolder;
-				font-size: 18vw;
-				line-height: 14vw;
+				font-size: 14cqw;
+				line-height: 12cqw;
 			}
 		  
 			h2 {
 				font-weight: 300;
-				font-size: 7.6vw;
-				line-height: 7vw;
+				font-size: 3.2cqw;
 			}
 		  
 			h3 {
 				font-weight: 100;
-				font-size: 2vw;
-				line-height: 1rem;
-				padding: 1vw;
+				font-size: 1.2cqw;
+				padding: 1cqw;
 			}
 		  
 			#name {
@@ -87,7 +86,7 @@
 		</style>
 		<div id="row-1">
 			<h1 id="name">IVAN</h1>
-			<h2 id="title">ENGENHEIRO <br />DE SOFTWARE</h2>
+			<h2 id="title">FULLSTACK<br />SOFTWARE<br />ENGINEER</h2>
 		</div>
 		<div id="row-2">
 			<h3 id="js">JAVASCRIPT</h3>
