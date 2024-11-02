@@ -89,7 +89,9 @@
 			}
 		  
 			@media (prefers-color-scheme: dark) {
-		  
+				#name {
+					color: #d0d0d0;
+				}
 			}
 		  
 			@media (max-width: 767px) {
