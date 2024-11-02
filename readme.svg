@@ -33,14 +33,14 @@
 		  
 			h1 {
 				font-weight: bolder;
-				font-size: 150px;
-				line-height: 12cqw;
+				font-size: 40cqw;
+				line-height: 35cqw;
 				background-color: #777;
 			}
 		  
 			h2 {
 				font-weight: 300;
-				font-size: 3.2cqw;
+				font-size: 9cqw;
 			}
 		  
 			h3 {
