@@ -49,8 +49,38 @@
 			}
 		  
 			#js {
-				color: #F0DB4F;
-				background-color: #323330;
+				color: #323330;
+				background-color: #f0db4f;
+			}
+
+			#ts {
+				color: #fefefe;
+				background-color: #007acc;
+			}
+
+			#node {
+				color: #303030;
+				background-color: #3c873a;
+			}
+
+			#react {
+				color: #fefefe;
+				background-color: #67DAFB;
+			}
+
+			#angular {
+				color: #fefefe;
+				background-color: #DF1538;
+			}
+
+			#php {
+				color: #292C37;
+				background-color: #8D96C0;
+			}
+
+			#laravel {
+				color: #fefefe;
+				background-color: #F3422C;
 			}
 		  
 			@media (prefers-color-scheme: dark) {
