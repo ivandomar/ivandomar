@@ -33,7 +33,7 @@
 		  
 			h1 {
 				font-weight: bolder;
-				font-size: 14cqw;
+				font-size: 20cqw;
 				line-height: 12cqw;
 				background-color: #777;
 			}
