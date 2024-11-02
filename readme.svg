@@ -11,43 +11,38 @@
 			#main {
 				display: flex;
 				flex-direction: column;
-			}
-		  
-			#row-1, #row-2 {
-				display: flex;
-				justify-content: space-between;
 				align-items: center;
+				width: 100%;
 			}
 
-			#row-1 {
-				background-color: #303030;
-			}
-
-			#row-2 > *{
-				width: 14%;
-			}
-		  
 			h1, h2 {
-				display: inline-block;
+				text-align: center;
 			}
 		  
 			h1 {
+				width: 100%;
 				font-weight: bolder;
-				font-size: 40cqw;
-				line-height: 35cqw;
-				background-color: #777;
+				font-size: 15vw;
+				line-height: 0.7;
 			}
 		  
 			h2 {
-				font-weight: 300;
-				font-size: 9cqw;
+				width: 100%;
+				font-weight: 100;
+				font-size: 6vw;
+				line-height: 01;
 			}
 		  
 			h3 {
 				font-weight: normal;
-				font-size: 1.2cqw;
-				padding: 1cqw;
+				font-size: 0.6vw;
+				padding: 1vw;
 				text-align: center;
+			}
+
+			#stacks-row {
+				display: flex;
+				flex-direction: row;
 			}
 		  
 			#name {
@@ -93,11 +88,9 @@
 				background-color: #F3422C;
 			}
 		</style>
-		<div id="row-1">
-			<h1 id="name">IVAN</h1>
-			<h2 id="title">FULLSTACK<br />SOFTWARE<br />ENGINEER</h2>
-		</div>
-		<div id="row-2">
+		<h1 id="name">IVAN</h1>
+		<h2 id="title">FULLSTACK<br />SOFTWARE<br />ENGINEER</h2>
+		<div id="stacks-row">
 			<h3 id="js">JAVASCRIPT</h3>
 			<h3 id="ts">TYPESCRIPT</h3>
 			<h3 id="node">NODEJS</h3>
