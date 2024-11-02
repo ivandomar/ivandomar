@@ -92,33 +92,6 @@
 				color: #fefefe;
 				background-color: #F3422C;
 			}
-		  
-			@media (max-width: 767px) {
-				#row-1 {
-					flex-direction: column;
-					text-align: center;
-				}
-		  
-				#row-2 {
-					width: 65vw;
-					align-self: center;
-				}
-		  
-				h1 {
-					font-size: 30vw;
-					line-height: 23vw;
-				}
-		  
-				h2 {
-					font-size: 9vw;
-					line-height: 7vw;
-				}
-		  
-				h3 {
-					font-size: 1.9vw;
-					line-height: 1.9vw;
-				}
-			}
 		</style>
 		<div id="row-1">
 			<h1 id="name">IVAN</h1>
